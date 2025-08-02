@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>MyInstants Clone</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 20px 40px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff4c4c;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e63946;
+    }
+  </style>
 </head>
 <body>
-  <h1>MyInstants Clone 🔊</h1>
 
-  <div id="buttons-container">
-    <!-- Butonlar buraya JS ile eklenecek -->
-  </div>
+  <h1>MyInstants Ses Butonu</h1>
+  <button onclick="playSound('gulme')">Gülme Sesi</button>
 
   <script src="script.js"></script>
 </body>
