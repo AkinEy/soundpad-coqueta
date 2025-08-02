@@ -1,6 +1,6 @@
 const sounds = [
-  { name: "Gülme", file: "sounds/example1.mp3" },
-  { name: "Alkış", file: "sounds/example2.mp3" }
+  { name: "Kımbıl", file: "sounds/example1.mp3" },
+  { name: "Barisbra", file: "sounds/example2.mp3" }
 ];
 
 const container = document.getElementById("buttons-container");
